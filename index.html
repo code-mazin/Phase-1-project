@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      
+    <h1>Our website</h1>
+
+      <form>
+        <div class="remember">
+          <label for="enterplayer">Enter your name:</label>
+          <input id="enterplayer" type="text" required>
+          <input id="submitplayer" type="submit" value="Go">
+        </div>
+        <div class="forget">
+          <label for="forgetplayer">Want me to forget you?</label>
+          <input id="forgetplayer" type="reset" value="Forget">
+        </div>
+      </form>
+    </header>
+
+    <main>
+
+      <p class="greeting">Welcome to guess game.</p>
+
+      <div>
+        <h2>Number Guessing Game</h2>
+
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+  
+        <div class="form">
+            <label for="guessField">Enter a guess: </label>
+            <input type="number" min="1" max="100" required id="guessField" class="guessField">
+            <input type="submit" value="Guess" class="guessSubmit">
+        </div>
+  
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+      
+      </div>
+      
+    </main>
+
+    <footer>
+      
+    </footer>
+    
+      </body>
+    </html>

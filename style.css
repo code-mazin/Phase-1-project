@@ -1,0 +1,63 @@
+html {
+    font-family: sans-serif;
+    align-items: center;
+  }
+
+  body {
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: violet;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+
+  .ninja {
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  header, footer {
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  form {
+    font-size: 0.8rem;
+  }
+
+  .personal-greeting {
+    font-weight: bold;
+  }
+
+  button {
+    margin: 0 50%;
+    
+  };
+
+  
+  .form input[type="number"] {
+    width: 200px;
+  }
+
+  .lastResult {
+    color: white;
+    padding: 3px;
+  }
+
+  h2 {
+    text-align: center;
+  }
