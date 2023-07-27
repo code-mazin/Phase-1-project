@@ -7,6 +7,7 @@ html {
     margin: 0 auto;
     max-width: 1024px;
     background-color: violet;
+    font-size: large;
   }
 
   main {
@@ -32,7 +33,7 @@ html {
   }
 
   form {
-    font-size: 0.8rem;
+    font-size: 20px;
   }
 
   .personal-greeting {
@@ -63,6 +64,7 @@ html {
   .btn {
     margin: 0;
     margin-top: 20px;
+    font-size: 15px;
   }
 
   .btn:active {

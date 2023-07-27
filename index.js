@@ -127,3 +127,29 @@
     }
 
 
+    //Joke API
+
+    const jokeEl = document.getElementById("joke");
+    const find_joke = document.getElementById("find_joke");
+
+    // Add EventListener for button clicks
+
+    find_joke.addEventListener('click', generateJoke);
+
+    async function generateJoke() {
+      //Call the API
+      const jokeRes = await fetch('https://icanhazdadjoke.com/',
+      {
+        headers: {
+          accept: 'application/json'
+        }
+      });
+
+      const joke = await jokeRes.json();
+
+      console.log(joke);
+
+      //Set Random Jokes
+      jokeEl.innerHTML = joke.joke;
+    }
+    
